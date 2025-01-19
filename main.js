@@ -7,7 +7,7 @@ const descriptionField = document.getElementById('description');
 const charCount = document.getElementById('charCount');
 
 // Initialize EmailJS with your public key
-emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual public key from EmailJS
+emailjs.init("4gnzUtz6W6TnHlRsZ"); // Replace with your actual public key from EmailJS
 
 // Character count for description
 descriptionField.addEventListener('input', (e) => {
