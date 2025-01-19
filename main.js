@@ -69,8 +69,8 @@ form.addEventListener('submit', async (e) => {
         };
 
         await emailjs.send(
-            'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-            'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+            'service_dk0yzl6', // Replace with your EmailJS service ID
+            'template_mde98rr', // Replace with your EmailJS template ID
             templateParams
         );
         
