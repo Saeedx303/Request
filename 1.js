@@ -7,7 +7,7 @@ const descriptionField = document.getElementById('description');
 const charCount = document.getElementById('charCount');
 
 // Initialize EmailJS with your public key
-emailjs.init("4gnzUtz6W6TnHlRsZ"); // Replace with your actual public key from EmailJS
+emailjs.init("4gnzUtz6W6TnHlRsZ"); // Your public key
 
 // Character count for description
 descriptionField.addEventListener('input', (e) => {
@@ -69,8 +69,8 @@ form.addEventListener('submit', async (e) => {
         };
 
         await emailjs.send(
-            'service_dk0yzl6', // Replace with your EmailJS service ID
-            'template_mde98rr', // Replace with your EmailJS template ID
+            'service_dk0yzl6', // Your service ID
+            'template_mde98rr', // Your template ID
             templateParams
         );
         
